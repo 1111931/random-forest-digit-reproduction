@@ -47,8 +47,7 @@ HEAD_FONT_LATIN = "Arial"
 HEAD_FONT_CJK = "微软雅黑"
 
 GITHUB_URL = (
-    "https://github.com/gty-aA/hog-svm-usps-reproduction/"
-    "tree/forest-ocr-reproduction"
+    "https://github.com/1111931/random-forest-digit-reproduction"
 )
 
 

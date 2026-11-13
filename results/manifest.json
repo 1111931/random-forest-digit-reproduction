@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-11-13T05:02:57.686799+00:00",
+  "generated_at_utc": "2026-11-13T05:24:36.903186+00:00",
   "algorithm": "SHA-256",
   "files": {
     "README.md": {
-      "bytes": 3969,
-      "sha256": "4aedc322ad94685698c167d8792a251c1ad4387acf95411dac0b5108c805444b"
+      "bytes": 3787,
+      "sha256": "59f42c241d1420f3f64ef620d6a618b2fec2f6c0cf4b29d0b4733d62ac1d88dc"
     },
     "requirements.txt": {
       "bytes": 93,
@@ -23,8 +23,8 @@
       "sha256": "787bf6ddb17d4f88e4ba786bb19abb05e44fbcbc4df65f4a4e6402bab1fdb5ea"
     },
     "src/build_paper.py": {
-      "bytes": 55518,
-      "sha256": "95e8107f736aa69d4644da59d8af0ebda3d6e3662e745b53893083f30d613f03"
+      "bytes": 55490,
+      "sha256": "ceffcc5f87dd1b076eafe644534a434eebdfa6b5caa881dbbda1efe7ec43329f"
     },
     "src/evaluate_checkpoints.py": {
       "bytes": 2129,
@@ -96,7 +96,7 @@
     },
     "results/pdf_audit.json": {
       "bytes": 3309,
-      "sha256": "83fe75848c1919dcee2f21b6a8f024fd1355aef29735ccd5c347defc150af70c"
+      "sha256": "e762d19af938c07249f794e16924399e8470173275198c8b448190244ccbc6f6"
     },
     "results/per_seed_metrics.csv": {
       "bytes": 3286,
@@ -147,12 +147,12 @@
       "sha256": "aa36b7c1f514687a5ad04ae0659e3f71d6cb24d307ed55a784e544019f83594b"
     },
     "paper/Random_Forest_Digit_Reproduction_Paper.docx": {
-      "bytes": 701940,
-      "sha256": "376dbdc141811d3bfab0d7da349698c6f83efae3246d4063ff9d2f015d3852f7"
+      "bytes": 701932,
+      "sha256": "20612e831c20fe46a63b588de8c34422dee474066630e8e1f348a942e545cc61"
     },
     "paper/Random_Forest_Digit_Reproduction_Paper.pdf": {
-      "bytes": 1538466,
-      "sha256": "62c960be3e3fd59b3990e5f54489b058a02a451ce0aa06b89e871526f5402a24"
+      "bytes": 1538441,
+      "sha256": "c589525037a687a6896d6085c400de96d15a0984df9ef9b44e2c202281de364d"
     }
   }
 }

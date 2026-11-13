@@ -111,12 +111,9 @@ pred = model.predict(X_test)
 
 ## Public repository
 
-The prepared GitHub destination is:
+The public GitHub repository is:
 
-`https://github.com/gty-aA/hog-svm-usps-reproduction/tree/forest-ocr-reproduction`
-
-If the branch is not visible because the current machine cannot reach GitHub,
-the complete local Git repository and commit are still present in this folder.
+`https://github.com/1111931/random-forest-digit-reproduction`
 
 ## Integrity
 

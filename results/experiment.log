@@ -1,0 +1,44 @@
+2026-11-13 12:56:16,071 | INFO | Dataset: x=(1797, 64), train=(1437, 64), test=(360, 64)
+2026-11-13 12:56:16,071 | INFO | Train counts: [142, 145, 142, 146, 145, 146, 145, 143, 139, 144]
+2026-11-13 12:56:16,071 | INFO | Test counts: [36, 37, 35, 37, 36, 36, 36, 36, 35, 36]
+2026-11-13 12:56:16,095 | INFO | seed=20261113 method=baseline           acc=0.8667 macroF1=0.8666 fit=0.018s
+2026-11-13 12:56:19,852 | INFO | seed=20261113 method=ablation_bagging   acc=0.9528 macroF1=0.9528 fit=3.612s
+2026-11-13 12:56:20,292 | INFO | seed=20261113 method=proposed           acc=0.9806 macroF1=0.9803 fit=0.278s
+2026-11-13 12:56:20,292 | INFO | seed=20261113 method=proposed           oob=0.9722
+2026-11-13 12:56:20,307 | INFO | seed=20261114 method=baseline           acc=0.8583 macroF1=0.8599 fit=0.011s
+2026-11-13 12:56:20,696 | INFO | seed=20261114 method=ablation_bagging   acc=0.9556 macroF1=0.9551 fit=0.226s
+2026-11-13 12:56:21,161 | INFO | seed=20261114 method=proposed           acc=0.9889 macroF1=0.9889 fit=0.298s
+2026-11-13 12:56:21,162 | INFO | seed=20261114 method=proposed           oob=0.9749
+2026-11-13 12:56:21,178 | INFO | seed=20261115 method=baseline           acc=0.8694 macroF1=0.8683 fit=0.013s
+2026-11-13 12:56:21,550 | INFO | seed=20261115 method=ablation_bagging   acc=0.9583 macroF1=0.9581 fit=0.232s
+2026-11-13 12:56:21,981 | INFO | seed=20261115 method=proposed           acc=0.9750 macroF1=0.9746 fit=0.265s
+2026-11-13 12:56:21,981 | INFO | seed=20261115 method=proposed           oob=0.9756
+2026-11-13 12:56:21,998 | INFO | seed=20261116 method=baseline           acc=0.8639 macroF1=0.8633 fit=0.012s
+2026-11-13 12:56:22,392 | INFO | seed=20261116 method=ablation_bagging   acc=0.9583 macroF1=0.9582 fit=0.229s
+2026-11-13 12:56:22,841 | INFO | seed=20261116 method=proposed           acc=0.9861 macroF1=0.9860 fit=0.280s
+2026-11-13 12:56:22,841 | INFO | seed=20261116 method=proposed           oob=0.9743
+2026-11-13 12:56:22,854 | INFO | seed=20261117 method=baseline           acc=0.8611 macroF1=0.8609 fit=0.013s
+2026-11-13 12:56:23,219 | INFO | seed=20261117 method=ablation_bagging   acc=0.9583 macroF1=0.9578 fit=0.217s
+2026-11-13 12:56:23,654 | INFO | seed=20261117 method=proposed           acc=0.9833 macroF1=0.9830 fit=0.265s
+2026-11-13 12:56:23,654 | INFO | seed=20261117 method=proposed           oob=0.9743
+2026-11-13 12:56:27,960 | INFO | Learning curve seed=20261113 fraction=0.10 n=140
+2026-11-13 12:56:28,204 | INFO | Learning curve seed=20261113 fraction=0.20 n=290
+2026-11-13 12:56:28,508 | INFO | Learning curve seed=20261113 fraction=0.40 n=580
+2026-11-13 12:56:28,789 | INFO | Learning curve seed=20261113 fraction=0.60 n=870
+2026-11-13 12:56:29,094 | INFO | Learning curve seed=20261113 fraction=0.80 n=1160
+2026-11-13 12:56:29,404 | INFO | Learning curve seed=20261113 fraction=1.00 n=1437
+2026-11-13 12:56:29,645 | INFO | Learning curve seed=20261114 fraction=0.10 n=140
+2026-11-13 12:56:29,887 | INFO | Learning curve seed=20261114 fraction=0.20 n=290
+2026-11-13 12:56:30,168 | INFO | Learning curve seed=20261114 fraction=0.40 n=580
+2026-11-13 12:56:30,453 | INFO | Learning curve seed=20261114 fraction=0.60 n=870
+2026-11-13 12:56:30,752 | INFO | Learning curve seed=20261114 fraction=0.80 n=1160
+2026-11-13 12:56:31,057 | INFO | Learning curve seed=20261114 fraction=1.00 n=1437
+2026-11-13 12:56:31,294 | INFO | Learning curve seed=20261115 fraction=0.10 n=140
+2026-11-13 12:56:31,541 | INFO | Learning curve seed=20261115 fraction=0.20 n=290
+2026-11-13 12:56:31,808 | INFO | Learning curve seed=20261115 fraction=0.40 n=580
+2026-11-13 12:56:32,092 | INFO | Learning curve seed=20261115 fraction=0.60 n=870
+2026-11-13 12:56:32,391 | INFO | Learning curve seed=20261115 fraction=0.80 n=1160
+2026-11-13 12:56:32,706 | INFO | Learning curve seed=20261115 fraction=1.00 n=1437
+2026-11-13 12:56:34,810 | INFO | Saved checkpoints to C:\Users\24062\Desktop\新建文件夹\forest_ocr_reproduction\checkpoints
+2026-11-13 12:56:34,810 | INFO | Saved results to C:\Users\24062\Desktop\新建文件夹\forest_ocr_reproduction\results
+2026-11-13 12:56:34,810 | INFO | Saved figures to C:\Users\24062\Desktop\新建文件夹\forest_ocr_reproduction\figures

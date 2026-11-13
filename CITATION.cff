@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you reuse this reproducibility package, cite this work and the listed original references."
+title: "From a Single Decision Tree to a Random Forest: A Reproducible Study of Historical Handwritten Digit Recognition"
+type: software
+authors:
+  - family-names: "Independent Reproduction Group"
+    given-names: "Research"
+year: 2026
+version: "1.0.0"
+identifiers:
+  - type: other
+    value: "random-forest-digit-reproduction"
+references:
+  - type: article
+    title: "Random Forests"
+    authors:
+      - family-names: "Breiman"
+        given-names: "Leo"
+    year: 2001

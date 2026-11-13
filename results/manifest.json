@@ -1,0 +1,158 @@
+{
+  "generated_at_utc": "2026-11-13T05:02:57.686799+00:00",
+  "algorithm": "SHA-256",
+  "files": {
+    "README.md": {
+      "bytes": 3969,
+      "sha256": "4aedc322ad94685698c167d8792a251c1ad4387acf95411dac0b5108c805444b"
+    },
+    "requirements.txt": {
+      "bytes": 93,
+      "sha256": "f3bf907b602aeec600ec7c86a2529c8f6f7e0767d3d499a4faff21032436a8a5"
+    },
+    "CITATION.cff": {
+      "bytes": 597,
+      "sha256": "885e5b1e32e28cb3aa374b95104e2176649e4f738b19450558238ec1772e3a34"
+    },
+    "LICENSE": {
+      "bytes": 1087,
+      "sha256": "5e3889fc070e79402fe22a47dff64c5d29eb3defe1e0891bc9680c928ec8c41d"
+    },
+    "src/audit_pdf.py": {
+      "bytes": 5206,
+      "sha256": "787bf6ddb17d4f88e4ba786bb19abb05e44fbcbc4df65f4a4e6402bab1fdb5ea"
+    },
+    "src/build_paper.py": {
+      "bytes": 55518,
+      "sha256": "95e8107f736aa69d4644da59d8af0ebda3d6e3662e745b53893083f30d613f03"
+    },
+    "src/evaluate_checkpoints.py": {
+      "bytes": 2129,
+      "sha256": "d1909f2290cde362f1ab552e9fa14bbc08672517edf96c32a8a211cce7bc2ea5"
+    },
+    "src/make_figures.py": {
+      "bytes": 1543,
+      "sha256": "04f8b947ddbea1850dd5b1e8d01241258fb4dee746da9c6401a943350c926d91"
+    },
+    "src/make_manifest.py": {
+      "bytes": 1588,
+      "sha256": "0c79d60f4d063486962d2d15acf3bf191143b4d318402334e14b9f9578f8593e"
+    },
+    "src/run_experiment.py": {
+      "bytes": 32982,
+      "sha256": "2af7362a88a547fe98bcf7446d65d07a5c71f436884f12e084f7eda68a6a4f91"
+    },
+    "checkpoints/bagging_all_features.joblib": {
+      "bytes": 957295,
+      "sha256": "5dfbcff678d4c2047fff1a422a55423f0a0dc4fa98a2c991fb583d961ba12ea2"
+    },
+    "checkpoints/baseline_tree.joblib": {
+      "bytes": 7532,
+      "sha256": "52520fe65c2c18d8ab161d46ba63a574c5e86cc4874471207368f2389fbc988e"
+    },
+    "checkpoints/proposed_random_forest.joblib": {
+      "bytes": 2675446,
+      "sha256": "ed71d10859b91549865f1a907d24b7ddcf3adbe1521d8d0a199401f0ab0d0420"
+    },
+    "results/checkpoint_verification.json": {
+      "bytes": 2024,
+      "sha256": "cb74724fdd7740b4424a8949d64e61e095ed6bf6910a3985c36a00f78690cf1e"
+    },
+    "results/experiment.log": {
+      "bytes": 4241,
+      "sha256": "cf4d8a9d81abf5363087b4a06d8d2749ead27a1ddd9c8361dea3d53a25ccc2b3"
+    },
+    "results/learning_curves.csv": {
+      "bytes": 668,
+      "sha256": "f98c000d79712c75790f080f26ad4dd72d765d7da02604b568e43a9da1336b4f"
+    },
+    "results/learning_curves_raw.csv": {
+      "bytes": 1654,
+      "sha256": "3c2233e12399017e7c230af490e0a01891355fe70ab22e8273429f32e7c3311f"
+    },
+    "results/main_results.csv": {
+      "bytes": 1050,
+      "sha256": "4e0678cc81879f8feee30b7ae9068180c953854c54043109226306de40766f48"
+    },
+    "results/metrics.json": {
+      "bytes": 13406,
+      "sha256": "4cc07983c58fcac5d4a7969c3a77fe5984236b6467aaa60bfa2aa7246a28a610"
+    },
+    "results/noise_robustness.csv": {
+      "bytes": 1049,
+      "sha256": "bb0d85d59fb461670217586ebd42af13997f18b7dc64e2ea5f75a13a178fd8f8"
+    },
+    "results/noise_robustness_raw.csv": {
+      "bytes": 4099,
+      "sha256": "e71b98c7f5c2a4733fc7007bcf50b7a1c4d5e98ebfa08a70a3a24ab9ac327757"
+    },
+    "results/occlusion_robustness.csv": {
+      "bytes": 817,
+      "sha256": "2be449b8d69ba1c021fa02dfd78ac72150df13a6db54218cfdfac50ed288bf24"
+    },
+    "results/occlusion_robustness_raw.csv": {
+      "bytes": 3068,
+      "sha256": "153e13391c6afdf647996ade1ffe139733818388f0cb41abf8782058042b8d4f"
+    },
+    "results/pdf_audit.json": {
+      "bytes": 3309,
+      "sha256": "83fe75848c1919dcee2f21b6a8f024fd1355aef29735ccd5c347defc150af70c"
+    },
+    "results/per_seed_metrics.csv": {
+      "bytes": 3286,
+      "sha256": "523df509f9a151a890794861e12260ef8138a30bea2e49b1ed74d3d51505cb27"
+    },
+    "results/predictions.npz": {
+      "bytes": 16723,
+      "sha256": "482a0518f81962fc117302bd2bbd828c46eb816d79259d198b08346d672e73fc"
+    },
+    "results/tree_count_curve.csv": {
+      "bytes": 532,
+      "sha256": "e0aabbbd69b360c2d808b14a0569c83ec4efd07dc826219f1e7da0e04c074f37"
+    },
+    "figures/fig01_framework.png": {
+      "bytes": 89231,
+      "sha256": "4f2e8342c8cd5b5b4a46d59d8abb0721eaadb921e2c368956be841decd672078"
+    },
+    "figures/fig02_digit_samples.png": {
+      "bytes": 36693,
+      "sha256": "b0e75e553fba0d7b5a0da69a2d72996a6c9a54e856a2c4daf0bb5cfec35d817e"
+    },
+    "figures/fig03_class_distribution.png": {
+      "bytes": 42232,
+      "sha256": "ae2b341feb80a511908e424f327da2f3a602e852661883d1e289ce621b3726cb"
+    },
+    "figures/fig04_main_results.png": {
+      "bytes": 78974,
+      "sha256": "efc90b43e7775a783f14045d5c529525a8ab4553935ada1dd90afb8524fe921f"
+    },
+    "figures/fig05_robustness.png": {
+      "bytes": 189985,
+      "sha256": "985abb5bc8d137f4c35b6b5c992fc7d03a0d86c52869ffd4486c0d23c39eb077"
+    },
+    "figures/fig06_learning_curve.png": {
+      "bytes": 83742,
+      "sha256": "d0f35dfac5c05e1bd558263ac97ad7576e57394bb8372fca8489046ad4ba3450"
+    },
+    "figures/fig07_confusion_matrix.png": {
+      "bytes": 67529,
+      "sha256": "6e96455e02bbd1d9c6bd082b5171729554355570cb210fbe028618aadb6049f4"
+    },
+    "figures/fig08_importance_per_class.png": {
+      "bytes": 79740,
+      "sha256": "41744f17778f91b4758e25764ba2406a346997d9068228668f92c9db860cd183"
+    },
+    "figures/fig09_tree_count.png": {
+      "bytes": 99706,
+      "sha256": "aa36b7c1f514687a5ad04ae0659e3f71d6cb24d307ed55a784e544019f83594b"
+    },
+    "paper/Random_Forest_Digit_Reproduction_Paper.docx": {
+      "bytes": 701940,
+      "sha256": "376dbdc141811d3bfab0d7da349698c6f83efae3246d4063ff9d2f015d3852f7"
+    },
+    "paper/Random_Forest_Digit_Reproduction_Paper.pdf": {
+      "bytes": 1538466,
+      "sha256": "62c960be3e3fd59b3990e5f54489b058a02a451ce0aa06b89e871526f5402a24"
+    }
+  }
+}

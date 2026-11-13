@@ -1,0 +1,129 @@
+{
+  "pdf": "C:\\Users\\24062\\Desktop\\新建文件夹\\forest_ocr_reproduction\\paper\\Random_Forest_Digit_Reproduction_Paper.pdf",
+  "size_bytes": 1538466,
+  "page_count": 15,
+  "pages": [
+    {
+      "page": 1,
+      "characters": 2156,
+      "words": 270,
+      "images": 0,
+      "first_line": "计算机视觉历史方法复现研究",
+      "last_line": "第 1 页"
+    },
+    {
+      "page": 2,
+      "characters": 1196,
+      "words": 90,
+      "images": 0,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 2 页"
+    },
+    {
+      "page": 3,
+      "characters": 910,
+      "words": 79,
+      "images": 0,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 3 页"
+    },
+    {
+      "page": 4,
+      "characters": 836,
+      "words": 109,
+      "images": 0,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 4 页"
+    },
+    {
+      "page": 5,
+      "characters": 636,
+      "words": 78,
+      "images": 1,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 5 页"
+    },
+    {
+      "page": 6,
+      "characters": 239,
+      "words": 37,
+      "images": 2,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 6 页"
+    },
+    {
+      "page": 7,
+      "characters": 1137,
+      "words": 165,
+      "images": 0,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 7 页"
+    },
+    {
+      "page": 8,
+      "characters": 602,
+      "words": 72,
+      "images": 1,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 8 页"
+    },
+    {
+      "page": 9,
+      "characters": 767,
+      "words": 88,
+      "images": 1,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 9 页"
+    },
+    {
+      "page": 10,
+      "characters": 434,
+      "words": 44,
+      "images": 1,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 10 页"
+    },
+    {
+      "page": 11,
+      "characters": 387,
+      "words": 45,
+      "images": 1,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 11 页"
+    },
+    {
+      "page": 12,
+      "characters": 262,
+      "words": 30,
+      "images": 2,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 12 页"
+    },
+    {
+      "page": 13,
+      "characters": 1165,
+      "words": 79,
+      "images": 0,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 13 页"
+    },
+    {
+      "page": 14,
+      "characters": 2718,
+      "words": 368,
+      "images": 0,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 14 页"
+    },
+    {
+      "page": 15,
+      "characters": 892,
+      "words": 80,
+      "images": 0,
+      "first_line": "手写数字视觉识别中的随机森林复现",
+      "last_line": "第 15 页"
+    }
+  ],
+  "issues": [],
+  "passed": true
+}

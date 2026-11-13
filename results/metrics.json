@@ -1,0 +1,528 @@
+{
+  "experiment": "Random Forest for Handwritten Digit Recognition",
+  "is_quick_mode": false,
+  "dataset": {
+    "name": "sklearn.datasets.load_digits",
+    "n_samples": 1797,
+    "n_features": 64,
+    "class_count": 10,
+    "train_samples": 1437,
+    "test_samples": 360,
+    "train_counts": [
+      142,
+      145,
+      142,
+      146,
+      145,
+      146,
+      145,
+      143,
+      139,
+      144
+    ],
+    "test_counts": [
+      36,
+      37,
+      35,
+      37,
+      36,
+      36,
+      36,
+      36,
+      35,
+      36
+    ],
+    "split_seed": 20261113
+  },
+  "configuration": {
+    "eval_seeds": [
+      20261113,
+      20261114,
+      20261115,
+      20261116,
+      20261117
+    ],
+    "checkpoint_seed": 20261113,
+    "n_estimators": 200,
+    "max_features": "sqrt",
+    "class_weight": "balanced_subsample",
+    "oob_score_enabled_proposed": true
+  },
+  "environment": {
+    "python": "3.12.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.1.3",
+    "scipy": "1.14.1",
+    "sklearn": "1.5.2",
+    "matplotlib": "3.9.2",
+    "pandas": "2.2.3"
+  },
+  "main_summary": [
+    {
+      "method": "ablation_bagging",
+      "accuracy_mean": 0.9566666666666667,
+      "accuracy_std": 0.0024845199749998605,
+      "balanced_accuracy_mean": 0.9564826254826254,
+      "macro_f1_mean": 0.9564132835232115,
+      "macro_f1_std": 0.002378560686296571,
+      "log_loss_mean": 0.238359906824189,
+      "brier_mean": 0.09191065521548913,
+      "ece_mean": 0.12053503367003368,
+      "oob_mean": null,
+      "oob_std": null,
+      "fit_seconds_mean": 0.9034487600438297,
+      "fit_seconds_median": 0.22932090004906058,
+      "inference_ms_mean": 0.10325799993653265,
+      "inference_ms_median": 0.098598055774346,
+      "model_bytes_mean": 957983.4
+    },
+    {
+      "method": "baseline",
+      "accuracy_mean": 0.8638888888888889,
+      "accuracy_std": 0.004392052305789446,
+      "balanced_accuracy_mean": 0.8629815529815529,
+      "macro_f1_mean": 0.8637750775710137,
+      "macro_f1_std": 0.0036130293702445293,
+      "log_loss_mean": 3.745131545621774,
+      "brier_mean": 0.21654320987654324,
+      "ece_mean": 0.09314814814814813,
+      "oob_mean": null,
+      "oob_std": null,
+      "fit_seconds_mean": 0.013459179922938347,
+      "fit_seconds_median": 0.012641899986192584,
+      "inference_ms_mean": 0.000584167040263613,
+      "inference_ms_median": 0.0005025002691480848,
+      "model_bytes_mean": 7034.4
+    },
+    {
+      "method": "proposed",
+      "accuracy_mean": 0.9827777777777778,
+      "accuracy_std": 0.005343162239353176,
+      "balanced_accuracy_mean": 0.9825220935220935,
+      "macro_f1_mean": 0.9825598614425267,
+      "macro_f1_std": 0.005472545115291636,
+      "log_loss_mean": 0.27946358065472104,
+      "brier_mean": 0.09789913888888888,
+      "ece_mean": 0.19789444444444448,
+      "oob_mean": 0.9742519137091163,
+      "oob_std": 0.0013018988819672448,
+      "fit_seconds_mean": 0.2772631800267845,
+      "fit_seconds_median": 0.278060499811545,
+      "inference_ms_mean": 0.07132405531592667,
+      "inference_ms_median": 0.07088777751454876,
+      "model_bytes_mean": 2672057.4
+    }
+  ],
+  "checkpoint_metrics": {
+    "baseline": {
+      "accuracy": 0.8666666666666667,
+      "balanced_accuracy": 0.8655255255255254,
+      "macro_f1": 0.8666000371206415,
+      "weighted_f1": 0.867008848080923,
+      "log_loss": 3.6457804497415154,
+      "multiclass_brier": 0.21342592592592596,
+      "ece_10bin": 0.09212962962962959,
+      "inference_ms_per_sample": 0.0002625003819250398,
+      "save_accuracy": 0.8666666666666667,
+      "n_estimators": 1,
+      "model_bytes_joblib": 7061,
+      "oob_score": null
+    },
+    "ablation_bagging": {
+      "accuracy": 0.9527777777777777,
+      "balanced_accuracy": 0.9526855426855427,
+      "macro_f1": 0.9528372034005838,
+      "weighted_f1": 0.9529290558163795,
+      "log_loss": 0.2371280935187203,
+      "multiclass_brier": 0.09073438995323567,
+      "ece_10bin": 0.11656963183421526,
+      "inference_ms_per_sample": 0.09684027819376853,
+      "save_accuracy": 0.9527777777777777,
+      "n_estimators": 200,
+      "model_bytes_joblib": 956818,
+      "oob_score": null
+    },
+    "proposed": {
+      "accuracy": 0.9805555555555555,
+      "balanced_accuracy": 0.9803131703131702,
+      "macro_f1": 0.9803473465166043,
+      "weighted_f1": 0.9803675221946747,
+      "log_loss": 0.27901193501473365,
+      "multiclass_brier": 0.09702652777777777,
+      "ece_10bin": 0.19724999999999998,
+      "inference_ms_per_sample": 0.07534944452345371,
+      "save_accuracy": 0.9805555555555555,
+      "n_estimators": 200,
+      "model_bytes_joblib": 2675057,
+      "oob_score": 0.9721642310368824
+    }
+  },
+  "bootstrap_95_ci": {
+    "baseline": {
+      "low": 0.8305555555555556,
+      "high": 0.9
+    },
+    "ablation_bagging": {
+      "low": 0.9277777777777778,
+      "high": 0.9722222222222222
+    },
+    "proposed": {
+      "low": 0.9638888888888889,
+      "high": 0.9944444444444445
+    }
+  },
+  "mcnemar": {
+    "baseline_vs_proposed": {
+      "baseline_only_correct": 2,
+      "proposed_only_correct": 43,
+      "discordant": 45,
+      "two_sided_exact_p": 5.88897819397971e-11
+    },
+    "bagging_vs_proposed": {
+      "baseline_only_correct": 3,
+      "proposed_only_correct": 13,
+      "discordant": 16,
+      "two_sided_exact_p": 0.021270751953125
+    }
+  },
+  "per_class_f1": {
+    "baseline": {
+      "0": 0.9428571428571428,
+      "1": 0.8,
+      "2": 0.8307692307692308,
+      "3": 0.825,
+      "4": 0.9565217391304348,
+      "5": 0.9577464788732394,
+      "6": 0.9722222222222222,
+      "7": 0.9459459459459459,
+      "8": 0.6470588235294118,
+      "9": 0.7878787878787878
+    },
+    "ablation_bagging": {
+      "0": 0.9166666666666666,
+      "1": 0.9333333333333333,
+      "2": 1.0,
+      "3": 0.972972972972973,
+      "4": 0.9722222222222222,
+      "5": 0.9577464788732394,
+      "6": 1.0,
+      "7": 0.9577464788732394,
+      "8": 0.8732394366197183,
+      "9": 0.9444444444444444
+    },
+    "proposed": {
+      "0": 0.9859154929577465,
+      "1": 0.9736842105263158,
+      "2": 1.0,
+      "3": 0.972972972972973,
+      "4": 0.9863013698630136,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 0.958904109589041,
+      "8": 0.9393939393939394,
+      "9": 0.9863013698630136
+    }
+  },
+  "oob_per_seed": [
+    {
+      "seed": 20261113,
+      "oob_score": 0.9721642310368824
+    },
+    {
+      "seed": 20261114,
+      "oob_score": 0.9749478079331941
+    },
+    {
+      "seed": 20261115,
+      "oob_score": 0.9756437021572721
+    },
+    {
+      "seed": 20261116,
+      "oob_score": 0.9742519137091162
+    },
+    {
+      "seed": 20261117,
+      "oob_score": 0.9742519137091162
+    }
+  ],
+  "noise_summary": [
+    {
+      "method": "ablation_bagging",
+      "sigma": 0.0,
+      "mean": 0.9566666666666667,
+      "std": 0.0024845199749998605
+    },
+    {
+      "method": "ablation_bagging",
+      "sigma": 0.05,
+      "mean": 0.9177777777777777,
+      "std": 0.01848840143588193
+    },
+    {
+      "method": "ablation_bagging",
+      "sigma": 0.1,
+      "mean": 0.8566666666666667,
+      "std": 0.023040490392586373
+    },
+    {
+      "method": "ablation_bagging",
+      "sigma": 0.15,
+      "mean": 0.8172222222222223,
+      "std": 0.02896091448661857
+    },
+    {
+      "method": "ablation_bagging",
+      "sigma": 0.2,
+      "mean": 0.7777777777777778,
+      "std": 0.018108895570007364
+    },
+    {
+      "method": "ablation_bagging",
+      "sigma": 0.25,
+      "mean": 0.7055555555555555,
+      "std": 0.017347216662217793
+    },
+    {
+      "method": "baseline",
+      "sigma": 0.0,
+      "mean": 0.8638888888888889,
+      "std": 0.004392052305789446
+    },
+    {
+      "method": "baseline",
+      "sigma": 0.05,
+      "mean": 0.7633333333333333,
+      "std": 0.016362973861136804
+    },
+    {
+      "method": "baseline",
+      "sigma": 0.1,
+      "mean": 0.6677777777777777,
+      "std": 0.017743021580745873
+    },
+    {
+      "method": "baseline",
+      "sigma": 0.15,
+      "mean": 0.6094444444444445,
+      "std": 0.015786969153758674
+    },
+    {
+      "method": "baseline",
+      "sigma": 0.2,
+      "mean": 0.5422222222222223,
+      "std": 0.023190701627490835
+    },
+    {
+      "method": "baseline",
+      "sigma": 0.25,
+      "mean": 0.5038888888888888,
+      "std": 0.018695909633848727
+    },
+    {
+      "method": "proposed",
+      "sigma": 0.0,
+      "mean": 0.9827777777777778,
+      "std": 0.005343162239353176
+    },
+    {
+      "method": "proposed",
+      "sigma": 0.05,
+      "mean": 0.9799999999999999,
+      "std": 0.003042903097250902
+    },
+    {
+      "method": "proposed",
+      "sigma": 0.1,
+      "mean": 0.9733333333333333,
+      "std": 0.005414885747116074
+    },
+    {
+      "method": "proposed",
+      "sigma": 0.15,
+      "mean": 0.9527777777777778,
+      "std": 0.009820927516479857
+    },
+    {
+      "method": "proposed",
+      "sigma": 0.2,
+      "mean": 0.9316666666666666,
+      "std": 0.00974204328708343
+    },
+    {
+      "method": "proposed",
+      "sigma": 0.25,
+      "mean": 0.8977777777777778,
+      "std": 0.01898261062585542
+    }
+  ],
+  "occlusion_summary": [
+    {
+      "method": "ablation_bagging",
+      "block_size": 0,
+      "mean": 0.9566666666666667,
+      "std": 0.0024845199749998605
+    },
+    {
+      "method": "ablation_bagging",
+      "block_size": 1,
+      "mean": 0.9083333333333334,
+      "std": 0.007081971546656618
+    },
+    {
+      "method": "ablation_bagging",
+      "block_size": 2,
+      "mean": 0.4166666666666667,
+      "std": 0.0068041381743977215
+    },
+    {
+      "method": "ablation_bagging",
+      "block_size": 3,
+      "mean": 0.4383333333333333,
+      "std": 0.01716837460040272
+    },
+    {
+      "method": "ablation_bagging",
+      "block_size": 4,
+      "mean": 0.10333333333333335,
+      "std": 0.007453559924999297
+    },
+    {
+      "method": "baseline",
+      "block_size": 0,
+      "mean": 0.8638888888888889,
+      "std": 0.004392052305789446
+    },
+    {
+      "method": "baseline",
+      "block_size": 1,
+      "mean": 0.7466666666666667,
+      "std": 0.022343419502433556
+    },
+    {
+      "method": "baseline",
+      "block_size": 2,
+      "mean": 0.3472222222222222,
+      "std": 0.010577462647033202
+    },
+    {
+      "method": "baseline",
+      "block_size": 3,
+      "mean": 0.34611111111111115,
+      "std": 0.011882916464559693
+    },
+    {
+      "method": "baseline",
+      "block_size": 4,
+      "mean": 0.1,
+      "std": 0.0
+    },
+    {
+      "method": "proposed",
+      "block_size": 0,
+      "mean": 0.9827777777777778,
+      "std": 0.005343162239353176
+    },
+    {
+      "method": "proposed",
+      "block_size": 1,
+      "mean": 0.9805555555555555,
+      "std": 0.006514466333088104
+    },
+    {
+      "method": "proposed",
+      "block_size": 2,
+      "mean": 0.8572222222222223,
+      "std": 0.013693063937629145
+    },
+    {
+      "method": "proposed",
+      "block_size": 3,
+      "mean": 0.768888888888889,
+      "std": 0.017280367794439744
+    },
+    {
+      "method": "proposed",
+      "block_size": 4,
+      "mean": 0.5644444444444445,
+      "std": 0.03229875967499694
+    }
+  ],
+  "tree_count_curve": [
+    {
+      "method": "ablation_bagging",
+      "tree_count": 1,
+      "accuracy": 0.8305555555555556
+    },
+    {
+      "method": "ablation_bagging",
+      "tree_count": 5,
+      "accuracy": 0.9111111111111111
+    },
+    {
+      "method": "ablation_bagging",
+      "tree_count": 10,
+      "accuracy": 0.9444444444444444
+    },
+    {
+      "method": "ablation_bagging",
+      "tree_count": 25,
+      "accuracy": 0.9527777777777777
+    },
+    {
+      "method": "ablation_bagging",
+      "tree_count": 50,
+      "accuracy": 0.9583333333333334
+    },
+    {
+      "method": "ablation_bagging",
+      "tree_count": 100,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "method": "ablation_bagging",
+      "tree_count": 200,
+      "accuracy": 0.9527777777777777
+    },
+    {
+      "method": "proposed",
+      "tree_count": 1,
+      "accuracy": 0.8222222222222222
+    },
+    {
+      "method": "proposed",
+      "tree_count": 5,
+      "accuracy": 0.9333333333333333
+    },
+    {
+      "method": "proposed",
+      "tree_count": 10,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "method": "proposed",
+      "tree_count": 25,
+      "accuracy": 0.9722222222222222
+    },
+    {
+      "method": "proposed",
+      "tree_count": 50,
+      "accuracy": 0.9805555555555555
+    },
+    {
+      "method": "proposed",
+      "tree_count": 100,
+      "accuracy": 0.9805555555555555
+    },
+    {
+      "method": "proposed",
+      "tree_count": 200,
+      "accuracy": 0.9805555555555555
+    }
+  ],
+  "artifacts": {
+    "baseline_checkpoint": "checkpoints/baseline_tree.joblib",
+    "bagging_checkpoint": "checkpoints/bagging_all_features.joblib",
+    "proposed_checkpoint": "checkpoints/proposed_random_forest.joblib",
+    "predictions": "results/predictions.npz"
+  }
+}
